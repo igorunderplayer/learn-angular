@@ -3,7 +3,7 @@
 <button (click)="getNotes()">get notes</button>
 
 <h2>Notes:</h2>
-<ul>
+<ul class="noteList">
   <li *ngFor="let note of notes">
     <app-note [note]="note"> </app-note>
   </li>
