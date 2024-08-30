@@ -1,0 +1,33 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileContainer {
+  display: flex;
+  flex-direction: row;
+  width: 512px;
+  gap: 8px;
+  align-items: center;
+  border-left: 2px solid #f2476a;
+}
+
+.profileIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 2px;
+}
+
+.about {
+  color: #cfcfcf;
+  font-size: 1rem;
+  padding: 4px;
+}
